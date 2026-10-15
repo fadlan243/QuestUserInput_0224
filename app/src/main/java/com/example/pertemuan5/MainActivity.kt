@@ -19,7 +19,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Pertemuan5Theme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 
+                }
             }
         }
     }
