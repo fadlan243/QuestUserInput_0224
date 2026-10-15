@@ -20,7 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan5Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    FormDataDiri(
+                        modifier = Modifier.padding(paddingValues = innerPadding)
+                    )
                 }
             }
         }
